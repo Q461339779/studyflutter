@@ -1,15 +1,14 @@
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 ///首页
-class HomePage extends StatelessWidget {
+class HiBoardPage extends StatelessWidget {
+
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
-        child: Text("首页"),
+        child: Text("负一屏幕"),
       ),
     );
   }
 }
-

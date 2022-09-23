@@ -6,7 +6,8 @@ class Routes {
 // 路由管理
   static FluroRouter fluroRouter;
   static String guidepage = '/guidepage';
-  static String homepage = '/homepage';
+  static String indexpage = '/indexpage';
+  static String mainboardpage = '/mainboardpage';
 
 
   static void configureRoutes(FluroRouter fluroRouter) {
@@ -17,8 +18,9 @@ class Routes {
       print('route not found!');
     });
 
-    fluroRouter.define(guidepage, handler: indexPageHandler);
-    fluroRouter.define(homepage, handler: homepageHandler);
+    fluroRouter.define(guidepage, handler: guidePageHandler);
+    fluroRouter.define(indexpage, handler: indexPageHandler);
+    fluroRouter.define(mainboardpage, handler: mainBoardpageHandler);
 
 
   }

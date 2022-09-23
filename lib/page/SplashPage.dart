@@ -32,7 +32,7 @@ class _SplashPageState extends State<SplashPage> {
 
           if (UserUtil.isNotFirstIn()) {
             Navigator.pop(context);
-            Routes.navigateTo(context, Routes.homepage, clearStack: true);
+            Routes.navigateTo(context, Routes.mainboardpage, clearStack: true);
 
           } else {
             Navigator.pop(context);

@@ -76,7 +76,7 @@ class _GuidePageState extends State<GuidePage>
                           //跳转去======mian
                           //跳转到引导页面
                           Navigator.pop(context);
-                          Routes.navigateTo(context, Routes.homepage, clearStack: true);
+                          Routes.navigateTo(context, Routes.mainboardpage, clearStack: true);
                         },
                         child: Container(
                           width: 150,
